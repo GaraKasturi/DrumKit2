@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+* {
+    margin: 0px;
+}
+.image{
+    background-color: #64748b;
+    width:100px;
+    height: 100px;
+}
+
+.w-key{
+    background-image: url("C:/Users/garak/Pictures/crash.png");
+     background-size: cover;
+    width:120px;
+    height:120px;
+    
+    
+}
+.a-key{
+    background-image: url("C:/Users/garak/Pictures/kick.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+.s-key{
+    background-image: url("C:/Users/garak/Pictures/snare.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+.d-key{
+    background-image: url("C:/Users/garak/Pictures/tom1.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+.j-key{
+    background-image: url("C:/Users/garak/Pictures/tom2.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+.k-key{
+    background-image: url("C:/Users/garak/Pictures/tom3.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+.l-key{
+    background-image: url("C:/Users/garak/Pictures/tom4.png");
+    background-size: cover;
+    width:120px;
+    height:120px;
+}
+
+
+
+
+.background-container{
+    background-color: #64748b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+
+}
+.heading{
+    font-size: 30px;
+    font-family: "Roboto";
+    color:#ffffff;
+    text-shadow: 4px 0 pink;
+    
+    
+}
+@media screen and (min-width:768px){
+    .heading{
+        font-size: 60px;
+    }
+}
+.instruments-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width:90%;
+}
+
+
+
+.button {
+    outline: none;
+    text-align: center;
+    border: 4px solid #94a3b8;
+    font-size: 56px;
+    text-shadow: 2px 0 #DBEDF3;
+    font-family: "bree serif";
+    font-weight: 500;
+    color: orangered;
+    cursor: pointer;
+    border-radius: 13px;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    
+    margin: 9px;
+    
+}
+.sound-text{
+    color:#ffffff;
+    font-weight: 500;
+    font-family: "roboto";
+    text-align: center;
+
+}
