@@ -1,14 +1,18 @@
-let buttonsCount =
-	document.querySelectorAll(".button").length;  // calculates the elements with class name "button"
-
-
-
-
-
 document.addEventListener("keydown", function(event) {
-InstrumentSound(event.key);
+      InstrumentSound(event.key);
+      changeStyle(event.key)
+	
 
 });
+
+function changeStyle(key){
+	let activeKey = document.querySelector("." + key + "-key")
+	activeKey.classList.add("add-style")
+	
+	setTimeout(function(){
+		activeKey.classList.remove("add-style")
+	},200)
+}
 
 // we can use "switch-case" instead of "if-else"
 
