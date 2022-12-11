@@ -1,17 +1,7 @@
 let buttonsCount =
 	document.querySelectorAll(".button").length;  // calculates the elements with class name "button"
 
-for (let n = 0; n < buttonsCount; n++) {
 
-document.querySelectorAll(".button")[n]
-.addEventListener("click", function() {
-
-	let buttonStyle = this.innerHTML;
-	sound(buttonStyle);
-    
-	
-});
-}
 
 
 
