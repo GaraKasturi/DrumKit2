@@ -5,7 +5,7 @@ for (let n = 0; n< noOfButtons; n++){
 		let text = this.innerHTML  // returns w,a,s,d,j,k,l
 		InstrumentSound(text)
 		changeStyle(text)
-	}
+	})
 }
 
 
