@@ -1,3 +1,14 @@
+let noOfButtons = document.querySelectorAll(".button").length  //returns no of items
+
+for (let n = 0; n< noOfButtons; n++){
+	document.querySelectorAll(".button")[n].addEventListener("click",function(){
+		let text = this.innerHTML  // returns w,a,s,d,j,k,l
+		InstrumentSound(text)
+		changeStyle(text)
+	}
+}
+
+
 document.addEventListener("keydown", function(event) {
       InstrumentSound(event.key);
       changeStyle(event.key)
@@ -53,8 +64,9 @@ function InstrumentSound(keyPressed) {
     
 }
 
+// for click event we can use this also 
 
-document.addEventListener("click", function(event) {
+/* document.addEventListener("click", function(event) {
     InstrumentButtonSound(event.target.id);
     
 });
@@ -95,6 +107,7 @@ function InstrumentButtonSound(buttonPressed) {
     }
     
 }
+*/
 
 
 
